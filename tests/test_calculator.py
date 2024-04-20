@@ -1,3 +1,9 @@
+import sys
+import os
+
+# Append the directory of calculator.py to sys.path
+sys.path.append(os.path.abspath('../'))
+
 from calculator import add, subtract
 
 
