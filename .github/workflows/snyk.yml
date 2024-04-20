@@ -2,7 +2,7 @@ name: Snyk Security Scan
 
 on:
   push:
-    branches: [ main ]
+    branches: [ test ]
   pull_request:
     branches: [ main ]
 
