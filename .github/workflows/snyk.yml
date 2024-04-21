@@ -27,4 +27,4 @@ jobs:
       env:
         SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
       with:
-        args: --severity-threshold=high --workdir /github/workspace/demo
+        args: --severity-threshold=high --package-manager=pip
