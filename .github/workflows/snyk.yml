@@ -1,8 +1,6 @@
 name: Snyk Security Scan
 
 on:
-  push:
-    branches: [ test ]
   pull_request:
     branches: [ main ]
 
