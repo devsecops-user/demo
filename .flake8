@@ -1,0 +1,6 @@
+[flake8]
+ignore = E302, E305
+max-line-length = 120
+exclude =
+    migrations,
+    __init__.py
