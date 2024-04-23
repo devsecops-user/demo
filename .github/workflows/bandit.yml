@@ -1,0 +1,15 @@
+name: Security check - Bandit
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  bandit-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Security check - Bandit
+        uses: ioggstream/bandit-report-artifacts@v0.0.2
+        with:
+          project_path: ./bandit

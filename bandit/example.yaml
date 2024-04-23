@@ -1,0 +1,14 @@
+name: John Doe
+age: 34
+contact:
+  email: johndoe@example.com
+  phone: "+1234567890"
+address:
+  street: 1234 Maple Lane
+  city: Springfield
+  state: ST
+  zip_code: 12345
+hobbies:
+  - reading
+  - hiking
+  - coding
